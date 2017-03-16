@@ -68,9 +68,6 @@ build_for_py_ver() {
 
    . $TMP_VIB_DIR/virtualenv/bin/activate
 
-   # Install pip 1.3.1
-   pip install pip==1.3.1
-
    DIST_DIR=$($READLINK -nf ../dist)
 
    # Install the package in work directory given dist
